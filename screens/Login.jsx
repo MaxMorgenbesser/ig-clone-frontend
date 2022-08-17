@@ -1,5 +1,5 @@
 
-import { View, Text } from 'react-native';
+import { Input, View, Text } from 'react-native';
 import { loginStyles } from '../assets/Styles';
 
 function Login(){
