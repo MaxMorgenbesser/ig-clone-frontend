@@ -15,6 +15,26 @@ export const loginStyles = StyleSheet.create({
         textAlign: 'center',
       },
 
+    LoginInput:{
+      top:'100%',
+      left:'40%',
+      borderLeftWidth:4 ,
+      width:'75%',
+      
+
+    },
+    container:{
+        display:"flex",
+        justifyContent:"center",
+        paddingHorizontal:40,
+        paddingBottom:50,
+        alignItems:'stretch',
+        height:"35%",
+        
+
+
+    }
+
 })
 
 

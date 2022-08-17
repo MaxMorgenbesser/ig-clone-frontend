@@ -12,7 +12,7 @@ function PhotoCard({ photo }){
  <View style={photoCardStyles.cardContainer}>
 <View style={photoCardStyles.cardHeader}>
    {/* avatar */}
-    <Avatar rounded size='small' source={{uri:'https://randomuser.me/api/portraits/men/1.jpg'}}/>
+    <Avatar rounded size='small' source={{uri:`https://randomuser.me/api/portraits/men/${photo.id}.jpg`}}/>
    <View style={photoCardStyles.cardHeaderText}>
     <Text>Header Text</Text>
     <Text style={photoCardStyles.cardLocation}>Location</Text>
